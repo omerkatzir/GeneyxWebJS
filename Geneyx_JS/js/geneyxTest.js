@@ -1,3 +1,5 @@
+// import THREE from 'three';
+
 let columns = 13; //24;
 let lines = 35;
 let startX = -4.3;
@@ -624,17 +626,15 @@ let numofpresses = 0;
 
 function handeleScroll() {
   if (window.innerWidth >= 768) {
-    if (isInViewport(titleDiv) && isDna && numofpresses == 1) {
-      UnmakeDna();
-      numofpresses = 0;
-    }
     if (isInViewport(genomeAsset) && !isDna && numofpresses == 0) {
       // if (numofpresses == 0) {
       MakeDna();
       numofpresses = 1;
       // }
-    }
-    if (isInViewport(ourCostumers) && numofpresses == 1) {
+    } else if (isInViewport(titleDiv) && isDna && numofpresses == 1) {
+      UnmakeDna();
+      numofpresses = 0;
+    } else if (isInViewport(ourCostumers) && numofpresses == 1) {
       // if (numofpresses == 0) {
       // UnmakeDna();
       MakeBall();
@@ -644,32 +644,27 @@ function handeleScroll() {
       // }
       // let keyCode = event.which;
       // if (keyCode == 32) {
-    }
-    if (isInViewport(dGRP) && numofpresses == 2) {
+    } else if (isInViewport(dGRP) && numofpresses == 2) {
       // asNeeded();
       hideHand();
       UnmakeDna();
       numofpresses = 3;
-    }
-    if (isInViewport(genomeAsset) && numofpresses == 2) {
+    } else if (isInViewport(genomeAsset) && numofpresses == 2) {
       hideHand();
       MakeDna();
       numofpresses = 1;
-    }
-    if (isInViewport(geneyxExperience) && numofpresses == 3) {
+    } else if (isInViewport(geneyxExperience) && numofpresses == 3) {
       // unAsNeeded();
       MakeYX();
       numofpresses = 4;
-    }
-    if (isInViewport(dGRP) && numofpresses == 4) {
+    } else if (isInViewport(ourCostumers) && numofpresses == 3) {
+      MakeBall();
+      numofpresses = 2;
+    } else if (isInViewport(dGRP) && numofpresses == 4) {
       UnmakeDna();
       // MakeDna();
       // asNeeded();
       numofpresses = 3;
-    }
-    if (isInViewport(ourCostumers) && numofpresses == 3) {
-      MakeBall();
-      numofpresses = 2;
     }
   }
 }
