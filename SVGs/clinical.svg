@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="60px" viewBox="0 0 56 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-605.000000, -1395.000000)">
+            <g id="Group-13" transform="translate(523.000000, 1364.000000)">
+                <g id="Group-16" transform="translate(83.000000, 31.000000)">
+                    <path d="M47.5,28 C43.3579808,28 40,24.6420192 40,20.5 C40,16.3579808 43.3579808,13 47.5,13 C51.6420192,13 55,16.3579808 55,20.5 C55,24.6420192 51.6420192,28 47.5,28 Z" id="Fill-1" fill="#404D79"></path>
+                    <path d="M17.3968485,36.936 L17.3968485,43.036 C17.3968485,51.3754 24.1828561,58.136 32.5540455,58.136 C40.9252348,58.136 47.7112424,51.3754 47.7112424,43.036 L47.7112424,20.136" id="Stroke-7" stroke="#404D79" stroke-width="3"></path>
+                    <path d="M28.2184447,2.136 C33.4704636,2.136 37.3609447,6.9978 36.1907288,12.0984 L31.8989333,30.8044 C31.0489258,34.5088 27.7410432,37.136 23.9266492,37.136 L13.2762591,37.136 C9.46166439,37.136 6.15398258,34.5088 5.303975,30.8044 L1.01197879,12.0984 C-0.158237121,6.9978 3.73224394,2.136 8.98426288,2.136" id="Stroke-9" stroke="#404D79" stroke-width="3"></path>
+                    <polygon id="Fill-11" fill="#404D79" points="8.81336364 5.872 14.3060909 5.872 14.3060909 0.4002 8.81336364 0.4002"></polygon>
+                    <polygon id="Fill-14" fill="#404D79" points="23.896697 5.872 29.3894242 5.872 29.3894242 0.4002 23.896697 0.4002"></polygon>
+                    <path d="M47.5,24 C45.5670455,24 44,22.4329545 44,20.5 C44,18.5670455 45.5670455,17 47.5,17 C49.4329545,17 51,18.5670455 51,20.5 C51,22.4329545 49.4329545,24 47.5,24 Z" id="Fill-3" stroke="#FFFFFF" stroke-width="3" fill="#404D79"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
