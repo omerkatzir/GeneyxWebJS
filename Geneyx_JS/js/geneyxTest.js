@@ -280,7 +280,7 @@ function CreateHand() {
   hand = new THREE.Group();
   let SVGloader = new THREE.SVGLoader();
   SVGloader.load(
-    'https://rawgit.com/omerkatzir/b6104ab42f66f3aebfec810d06451589/raw/c6ede3c6ad164e2dc5d29dcbf07355aad74eb94a/hand.svg',
+    'https://cdn.jsdelivr.net/gh/omerkatzir/GeneyxWebJS@e9bce0c/Geneyx_JS/js/Hand.svg',
     function(paths) {
       hand.scale.multiplyScalar(0.02);
       hand.position.x = -3.9;
